@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeaAnytime>
+  <TeaVarieties>
+    <Tea>
+      <Name>1896</Name>
+      <Group>Black / Mix</Group>
+      <ImageThumbFilename>1896_thumb.png</ImageFileName>
+      <ImageFilename>1896.png</ImageFileName>
+      <Description>Fair Trade Indian Black Tea, orange peel, Fair Trade South African rooibos, roses, hibiscus, safflowers.</Description>
+    </Tea>
+    <Tea>
+      <Name>Ancient Forest</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>AncientForest_thumb.png</ImageFileName>
+      <ImageFilename>AncientForest.png</ImageFileName>
+      <Description>Black Tea - rich, earthy infusion with notes of cedar and honey.</Description>
+    </Tea>    
+    <Tea>
+      <Name>Apricot Escape</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ApricotEscape_thumb.png</ImageFileName>
+      <ImageFilename>ApricotEscape.png</ImageFileName>
+      <Description>Fair Trade South African rooibos, honeybush, lemongrass, lemon myrtle, rosehips, hibiscus, marigold, orance peel, apple bits.</Description>
+    </Tea>
+    <Tea>
+      <Name>Blueberry Pomegranate</Name>
+      <Group>White Peony</Group>
+      <ImageThumbFilename>BlueberryPomegranate_thumb.png</ImageFileName>
+      <ImageFilename>BlueberryPomegranate.png</ImageFileName>
+      <Description>White Peony Tea with whole blueberries and pomegranate essence.</Description>
+    </Tea>
+    <Tea>
+      <Name>Bohea</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>Bohea_thumb.png</ImageFileName>
+      <ImageFilename>Bohea.png</ImageFileName>
+      <Description>Black Tea with a sweet oakey note.</Description>
+    </Tea>
+    <Tea>
+      <Name>Chamomile Clementine</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ChamomileClementine_thumb.png</ImageFileName>
+      <ImageFilename>ChamomileClementine.png</ImageFileName>
+      <Description>Fair Trade chamomile, green rooibos, Fair Trade South African rooibos, orange peel.</Description>
+    </Tea>
+    <Tea>
+      <Name>Chamomile Lavender</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ChamomileLavender_thumb.png</ImageFileName>
+      <ImageFilename>ChamomileLavender.png</ImageFileName>
+      <Description>Whole chamomile flower, lavender flower.</Description>
+    </Tea>
+    <Tea>
+      <Name>Champagne &amp; Berry</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>ChampagneBerry_thumb.png</ImageFileName>
+      <ImageFilename>ChampagneBerry.png</ImageFileName>
+      <Description>Green Tea, goji berries, strawberries, acai berries.</Description>
+    </Tea>
+    <Tea>
+      <Name>Chrysanthemum Herbal</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ChrysanthemumHerbal_thumb.png</ImageFileName>
+      <ImageFilename>ChrysanthemumHerbal.png</ImageFileName>
+      <Description>Chrysanthemum flowers.</Description>
+    </Tea>
+    <Tea>
+      <Name>Classic Black</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>ClassicBlack_thumb.png</ImageFileName>
+      <ImageFilename>ClassicBlack.png</ImageFileName>
+      <Description>High-grown estatae Nilgiri Black Tea, Yunnan golden buds.</Description>
+    </Tea>
+    <Tea>
+      <Name>Cold Comfort</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ColdComfort_thumb.png</ImageFileName>
+      <ImageFilename>ColdComfort.png</ImageFileName>
+      <Description>Chamomile flowers, peppermint leaf, licorice root, lemon peel.</Description>
+    </Tea>
+    <Tea>
+      <Name>Detoxify Me</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>DetoxifyMe_thumb.png</ImageFileName>
+      <ImageFilename>DetoxifyMe.png</ImageFileName>
+      <Description>Lemon myrtle, goji berry, honeybush, ginger root, fennel seed, lemon grass.</Description>
+    </Tea>
+    <Tea>
+      <Name>Earl Grey</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>EarlGrey_thumb.png</ImageFileName>
+      <ImageFilename>EarlGrey.png</ImageFileName>
+      <Description>Nilgiri Black Tea blend, bergamot essential oil flavoring.</Description>
+    </Tea>
+    <Tea>
+      <Name>English Breakfast</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>EnglishBreakfast_thumb.png</ImageFileName>
+      <ImageFilename>EnglishBreakfast.png</ImageFileName>
+      <Description>Black Tea blend - a smoothy malty cup.</Description>
+    </Tea>
+    <Tea>
+      <Name>Fresh Greens</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>FreshGreens_thumb.png</ImageFileName>
+      <ImageFilename>FreshGreens.png</ImageFileName>
+      <Description>Green Tea, lemongrass, lemon verbena.</Description>
+    </Tea>
+    <Tea>
+      <Name>French Lemon Ginger</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>FrenchLemonGinger_thumb.png</ImageFileName>
+      <ImageFilename>FrenchLemonGinger.png</ImageFileName>
+      <Description>Lemongrass, Fair Trade South African rooibos, South African honeybush, ginger, lemon verbena.</Description>
+    </Tea>
+    <Tea>
+      <Name>Golden Monkey Superior</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>GoldenMonkeySuperior_thumb.png</ImageFileName>
+      <ImageFilename>GoldenMonkeySuperior.png</ImageFileName>
+      <Description>Chinese black tea - caramel / molasses undertones, sweet and complex.</Description>
+    </Tea>    
+    <Tea>
+      <Name>Green Pear</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>GreenPear_thumb.png</ImageFileName>
+      <ImageFilename>GreenPear.png</ImageFileName>
+      <Description>Chinese Green Tea, South African green rooibos, apple bits, marigolds, essence of pear.</Description>
+    </Tea>
+    <Tea>
+      <Name>Green Pomegranate</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>GreenPomegranate_thumb.png</ImageFileName>
+      <ImageFilename>GreenPomegranate.png</ImageFileName>
+      <Description>Green Tea, rosehips, raspberries, essence of pomegranate.</Description>
+    </Tea>
+    <Tea>
+      <Name>Gunpowder</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>Gunpowder_thumb.png</ImageFileName>
+      <ImageFilename>Gunpowder.png</ImageFileName>
+      <Description>Fair Trade Green Tea - smooth, slightly smoky.</Description>
+    </Tea>
+    <Tea>
+      <Name>Guo Lu First Grade</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>GuoLuFirstGrade_thumb.png</ImageFileName>
+      <ImageFilename>GuoLuFirstGrade.png</ImageFileName>
+      <Description>Chinese Green Tea - pure green tea taste.</Description>
+    </Tea>
+    <Tea>
+      <Name>Holiday Berry</Name>
+      <Group>Green / Mix</Group>
+      <ImageThumbFilename>HolidayBerry_thumb.png</ImageFileName>
+      <ImageFilename>HolidayBerry.png</ImageFileName>
+      <Description>Pan-fired greens, sencha, strawberries, raspberries, cornflowers, rosehips, pink peppercorn, safflowers.</Description>
+    </Tea>
+    <Tea>
+      <Name>Honeybush</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>Honeybush_thumb.png</ImageFileName>
+      <ImageFilename>Honeybush.png</ImageFileName>
+      <Description>Honeybush - similar to rooibos, but sweeter.</Description>
+    </Tea>
+    <Tea>
+      <Name>Italian Blood Orange</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>ItalianBloodOrange_thumb.png</ImageFileName>
+      <ImageFilename>ItalianBloodOrange.png</ImageFileName>
+      <Description>Fair Trade South African rooibos, honeybush, orange peel, safflower, hibiscus.</Description>
+    </Tea>
+    <Tea>
+      <Name>Jasmine Pearls</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>JasminePearls_thumb.png</ImageFileName>
+      <ImageFilename>JasminePearls.png</ImageFileName>
+      <Description>Green Tea, jasmine flowers.</Description>
+    </Tea>
+    <Tea>
+      <Name>Jasmine Silver Needle</Name>
+      <Group>White</Group>
+      <ImageThumbFilename>JasmineSilverNeedle_thumb.png</ImageFileName>
+      <ImageFilename>JasmineSilverNeedle.png</ImageFileName>
+      <Description>White silver needle scented with fresh jasmine blossoms.</Description>
+    </Tea>
+    <Tea>
+      <Name>Lemon Lavender</Name>
+      <Group>Black Blend</Group>
+      <ImageThumbFilename>LemonLavender_thumb.png</ImageFileName>
+      <ImageFilename>LemonLavender.png</ImageFileName>
+      <Description>Black Tea blend, lavender, lemon myrtle.</Description>
+    </Tea>
+    <Tea>
+      <Name>Lemon Ginger Snap</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>LemonGingerSnap_thumb.png</ImageFileName>
+      <ImageFilename>LemonGingerSnap.png</ImageFileName>
+      <Description>Chinese Green Tea, ginger root, lemon grass, lemon myrtle.</Description>
+    </Tea>
+    <Tea>
+      <Name>Matcha Grade A</Name>
+      <Group>Green</Group>
+      <ImageThumbFilename>MatchaGradeA_thumb.png</ImageFileName>
+      <ImageFilename>MatchaGradeA.png</ImageFileName>
+      <Description>Gyokuro Green Tea, stone-ground into a fine powder.</Description>
+    </Tea>
+    <Tea>
+      <Name>Mint Fusion</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>MintFusion_thumb.png</ImageFileName>
+      <ImageFilename>MintFusion.png</ImageFileName>
+      <Description>Black Tea, lemon grass, peppermint, spearmint.</Description>
+    </Tea>
+    <Tea>
+      <Name>Mint Pu'erh</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>MintPuerh_thumb.png</ImageFileName>
+      <ImageFilename>MintPuerh.png</ImageFileName>
+      <Description>Chinese pu'erh tea, spearmint, peppermint.</Description>
+    </Tea>
+    <Tea>
+      <Name>Oolong</Name>
+      <Group>Chinese Green / Black</Group>
+      <ImageThumbFilename>Oolong_thumb.png</ImageFileName>
+      <ImageFilename>Oolong.png</ImageFileName>
+      <Description>Wuyi Oolong - crisp, earthy tones, slight peppery finish.</Description>
+    </Tea>
+    <Tea>
+      <Name>Organic Relaxation</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>OrganicRelaxation_thumb.png</ImageFileName>
+      <ImageFilename>OrganicRelaxation.png</ImageFileName>
+      <Description>Lemon balm, rose petals, valerian root, chamomile, lemon myrtle.</Description>
+    </Tea>
+    <Tea>
+      <Name>Pear Spice</Name>
+      <Group>White</Group>
+      <ImageThumbFilename>PearSpice_thumb.png</ImageFileName>
+      <ImageFilename>PearSpice.png</ImageFileName>
+      <Description>White tea, star anise helichrysum.</Description>
+    </Tea>
+    <Tea>
+      <Name>Pu'erh</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>Puerh_thumb.png</ImageFileName>
+      <ImageFilename>Puerh.png</ImageFileName>
+      <Description>Chinese pu'erh tea - full body flavor.</Description>
+    </Tea>
+    <Tea>
+      <Name>Raspberry Nectar</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>RaspberryNectar_thumb.png</ImageFileName>
+      <ImageFilename>RaspberryNectar.png</ImageFileName>
+      <Description>Fair Trade South African rooibos, honeybush, lemongrass, raspberries.</Description>
+    </Tea>
+    <Tea>
+      <Name>Rooibos</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>Rooibos_thumb.png</ImageFileName>
+      <ImageFilename>Rooibos.png</ImageFileName>
+      <Description>Fair Trade South African rooibos - earthy, smooth, and mellow.</Description>
+    </Tea>
+    <Tea>
+      <Name>Tali's Masala Chai</Name>
+      <Group>Black</Group>
+      <ImageThumbFilename>TalisMasalaChai_thumb.png</ImageFileName>
+      <ImageFilename>TalisMasalaChai.png</ImageFileName>
+      <Description>Black Tea, cardamom, cinnamon, cloves, ginger.</Description>
+    </Tea>
+    <Tea>
+      <Name>Tropical Paradise</Name>
+      <Group>Caffeine Free</Group>
+      <ImageThumbFilename>TropicalParadise_thumb.png</ImageFileName>
+      <ImageFilename>TropicalParadise.png</ImageFileName>
+      <Description>Rooibos, coconut, banana.</Description>
+    </Tea>
+    <Tea>
+      <Name>White Coconut Creme</Name>
+      <Group>White</Group>
+      <ImageThumbFilename>WhiteCoconutCreme_thumb.png</ImageFileName>
+      <ImageFilename>WhiteCoconutCreme.png</ImageFileName>
+      <Description>Chinese White Tea, safflower, cornflower, coconut.</Description>
+    </Tea>
+    <Tea>
+      <Name>White Guava Ginger</Name>
+      <Group>White</Group>
+      <ImageThumbFilename>WhiteGuavaGinger_thumb.png</ImageFileName>
+      <ImageFilename>WhiteGuavaGinger.png</ImageFileName>
+      <Description>White Peony, ginger root, marigold, strawberries.</Description>
+    </Tea>
+    <Tea>
+      <Name>White Peony - Bai Mu Dan</Name>
+      <Group>Chinese White</Group>
+      <ImageThumbFilename>WhitePeonyBaiMuDan_thumb.png</ImageFileName>
+      <ImageFilename>WhitePeonyBaiMuDan.png</ImageFileName>
+      <Description>Chinese White Tea - rich and creamy with light, pleasing vegetal notes.</Description>
+    </Tea>
+    <Tea>
+      <Name>White Rose</Name>
+      <Group>Chinese White</Group>
+      <ImageThumbFilename>WhiteRose_thumb.png</ImageFileName>
+      <ImageFilename>WhiteRose.png</ImageFileName>
+      <Description>Chinese White Tea (bai mu dan), rose petals, chrysanthemum.</Description>
+    </Tea> 
+  </TeaVarieties>
+</TeaAnytime>

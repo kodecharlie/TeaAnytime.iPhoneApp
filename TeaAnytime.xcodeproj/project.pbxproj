@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */; };
+		79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19D1585460900B3234C /* green-tea-leaf.png */; };
+		79C1E1A0158632DC00B3234C /* TeaAnytime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19F158632DC00B3234C /* TeaAnytime.xml */; };
+		79C1E1A7158677A200B3234C /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1E1A6158677A200B3234C /* Tea.m */; };
 		79E98D261583CE1D00019FB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D251583CE1D00019FB4 /* UIKit.framework */; };
 		79E98D281583CE1D00019FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D271583CE1D00019FB4 /* Foundation.framework */; };
 		79E98D2A1583CE1D00019FB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D291583CE1D00019FB4 /* CoreGraphics.framework */; };
@@ -22,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tea-anytime-512x512-icon.png"; sourceTree = "<group>"; };
+		79C1E19D1585460900B3234C /* green-tea-leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tea-leaf.png"; sourceTree = "<group>"; };
+		79C1E19F158632DC00B3234C /* TeaAnytime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TeaAnytime.xml; sourceTree = "<group>"; };
+		79C1E1A5158677A200B3234C /* Tea.h */ = {isa = PBXFileReference; fileEncoding = 4; name = Tea.h; path = TeaAnytime/Tea.h; sourceTree = "<group>"; };
+		79C1E1A6158677A200B3234C /* Tea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tea.m; path = TeaAnytime/Tea.m; sourceTree = "<group>"; };
 		79E98D211583CE1D00019FB4 /* TeaAnytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaAnytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E98D251583CE1D00019FB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79E98D271583CE1D00019FB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,11 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793A17FE15A351DE00BFDFAA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				79E98D3C1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld */,
+				79C1E1A5158677A200B3234C /* Tea.h */,
+				79C1E1A6158677A200B3234C /* Tea.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
 		79E98D161583CE1D00019FB4 = {
 			isa = PBXGroup;
 			children = (
+				793A17FE15A351DE00BFDFAA /* DataModel */,
 				79E98D4A1583D23B00019FB4 /* Images */,
-				79E98D2D1583CE1D00019FB4 /* TeaAnytime */,
+				79E98D2D1583CE1D00019FB4 /* Classes */,
+				79E98D2E1583CE1D00019FB4 /* Supporting Files */,
 				79E98D241583CE1D00019FB4 /* Frameworks */,
 				79E98D221583CE1D00019FB4 /* Products */,
 			);
@@ -86,7 +107,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79E98D2D1583CE1D00019FB4 /* TeaAnytime */ = {
+		79E98D2D1583CE1D00019FB4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				79E98D361583CE1D00019FB4 /* AppDelegate.h */,
@@ -96,9 +117,8 @@
 				79E98D401583CE1D00019FB4 /* MasterViewController.m */,
 				79E98D421583CE1D00019FB4 /* DetailViewController.h */,
 				79E98D431583CE1D00019FB4 /* DetailViewController.m */,
-				79E98D3C1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld */,
-				79E98D2E1583CE1D00019FB4 /* Supporting Files */,
 			);
+			name = Classes;
 			path = TeaAnytime;
 			sourceTree = "<group>";
 		};
@@ -109,13 +129,17 @@
 				79E98D301583CE1D00019FB4 /* InfoPlist.strings */,
 				79E98D331583CE1D00019FB4 /* main.m */,
 				79E98D351583CE1D00019FB4 /* TeaAnytime-Prefix.pch */,
+				79C1E19F158632DC00B3234C /* TeaAnytime.xml */,
 			);
 			name = "Supporting Files";
+			path = TeaAnytime;
 			sourceTree = "<group>";
 		};
 		79E98D4A1583D23B00019FB4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */,
+				79C1E19D1585460900B3234C /* green-tea-leaf.png */,
 				79E98D4B1583D23B00019FB4 /* tea-anytime-iphone-icon.png */,
 			);
 			path = Images;
@@ -174,6 +198,9 @@
 				79E98D321583CE1D00019FB4 /* InfoPlist.strings in Resources */,
 				79E98D3B1583CE1D00019FB4 /* MainStoryboard.storyboard in Resources */,
 				79E98D4C1583D23B00019FB4 /* tea-anytime-iphone-icon.png in Resources */,
+				79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */,
+				79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */,
+				79C1E1A0158632DC00B3234C /* TeaAnytime.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +216,7 @@
 				79E98D3E1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld in Sources */,
 				79E98D411583CE1D00019FB4 /* MasterViewController.m in Sources */,
 				79E98D441583CE1D00019FB4 /* DetailViewController.m in Sources */,
+				79C1E1A7158677A200B3234C /* Tea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TeaAnytime/TeaAnytime-Prefix.pch";
 				INFOPLIST_FILE = "TeaAnytime/TeaAnytime-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -277,7 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TeaAnytime/TeaAnytime-Prefix.pch";
 				INFOPLIST_FILE = "TeaAnytime/TeaAnytime-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,6 +330,7 @@
 				79E98D491583CE1D00019FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -312,7 +341,8 @@
 				79E98D3D1583CE1D00019FB4 /* TeaAnytime.xcdatamodel */,
 			);
 			currentVersion = 79E98D3D1583CE1D00019FB4 /* TeaAnytime.xcdatamodel */;
-			path = TeaAnytime.xcdatamodeld;
+			name = TeaAnytime.xcdatamodeld;
+			path = TeaAnytime/TeaAnytime.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
