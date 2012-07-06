@@ -68,6 +68,10 @@
 		79F2242A15A60D35004ECC46 /* WhiteRose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F2240015A60D35004ECC46 /* WhiteRose.jpg */; };
 		79F2242C15A60FF5004ECC46 /* ChamomileLavender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F2242B15A60FF5004ECC46 /* ChamomileLavender.jpg */; };
 		79F2242E15A647F8004ECC46 /* gray-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2242D15A647F8004ECC46 /* gray-tea-leaf.png */; };
+		79F2243815A76D4B004ECC46 /* TeaAnytime-iPad-1of2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2243415A76D4B004ECC46 /* TeaAnytime-iPad-1of2.png */; };
+		79F2243915A76D4B004ECC46 /* TeaAnytime-iPad-2of2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2243515A76D4B004ECC46 /* TeaAnytime-iPad-2of2.png */; };
+		79F2243A15A76D4B004ECC46 /* TeaAnytime-iPhone-1of2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2243615A76D4B004ECC46 /* TeaAnytime-iPhone-1of2.png */; };
+		79F2243B15A76D4B004ECC46 /* TeaAnytime-iPhone-2of2.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2243715A76D4B004ECC46 /* TeaAnytime-iPhone-2of2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +145,10 @@
 		79F2240015A60D35004ECC46 /* WhiteRose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhiteRose.jpg; sourceTree = "<group>"; };
 		79F2242B15A60FF5004ECC46 /* ChamomileLavender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChamomileLavender.jpg; sourceTree = "<group>"; };
 		79F2242D15A647F8004ECC46 /* gray-tea-leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-tea-leaf.png"; sourceTree = "<group>"; };
+		79F2243415A76D4B004ECC46 /* TeaAnytime-iPad-1of2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeaAnytime-iPad-1of2.png"; sourceTree = "<group>"; };
+		79F2243515A76D4B004ECC46 /* TeaAnytime-iPad-2of2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeaAnytime-iPad-2of2.png"; sourceTree = "<group>"; };
+		79F2243615A76D4B004ECC46 /* TeaAnytime-iPhone-1of2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeaAnytime-iPhone-1of2.png"; sourceTree = "<group>"; };
+		79F2243715A76D4B004ECC46 /* TeaAnytime-iPhone-2of2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeaAnytime-iPhone-2of2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 		79E98D161583CE1D00019FB4 = {
 			isa = PBXGroup;
 			children = (
+				79F2243315A76D4B004ECC46 /* Screenshots */,
 				793A17FE15A351DE00BFDFAA /* DataModel */,
 				79F223D515A4A8AA004ECC46 /* UserInterface */,
 				79F223D615A4A8D7004ECC46 /* Utilities */,
@@ -293,6 +302,17 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		79F2243315A76D4B004ECC46 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				79F2243415A76D4B004ECC46 /* TeaAnytime-iPad-1of2.png */,
+				79F2243515A76D4B004ECC46 /* TeaAnytime-iPad-2of2.png */,
+				79F2243615A76D4B004ECC46 /* TeaAnytime-iPhone-1of2.png */,
+				79F2243715A76D4B004ECC46 /* TeaAnytime-iPhone-2of2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,6 +413,10 @@
 				79F2242A15A60D35004ECC46 /* WhiteRose.jpg in Resources */,
 				79F2242C15A60FF5004ECC46 /* ChamomileLavender.jpg in Resources */,
 				79F2242E15A647F8004ECC46 /* gray-tea-leaf.png in Resources */,
+				79F2243815A76D4B004ECC46 /* TeaAnytime-iPad-1of2.png in Resources */,
+				79F2243915A76D4B004ECC46 /* TeaAnytime-iPad-2of2.png in Resources */,
+				79F2243A15A76D4B004ECC46 /* TeaAnytime-iPhone-1of2.png in Resources */,
+				79F2243B15A76D4B004ECC46 /* TeaAnytime-iPhone-2of2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
