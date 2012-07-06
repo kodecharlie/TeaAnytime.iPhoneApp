@@ -7,30 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7902521C15A4A6F7007A0889 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7902521B15A4A6F7007A0889 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */; };
 		79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19D1585460900B3234C /* green-tea-leaf.png */; };
 		79C1E1A0158632DC00B3234C /* TeaAnytime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19F158632DC00B3234C /* TeaAnytime.xml */; };
-		79C1E1A7158677A200B3234C /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1E1A6158677A200B3234C /* Tea.m */; };
 		79E98D261583CE1D00019FB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D251583CE1D00019FB4 /* UIKit.framework */; };
 		79E98D281583CE1D00019FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D271583CE1D00019FB4 /* Foundation.framework */; };
 		79E98D2A1583CE1D00019FB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D291583CE1D00019FB4 /* CoreGraphics.framework */; };
 		79E98D2C1583CE1D00019FB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E98D2B1583CE1D00019FB4 /* CoreData.framework */; };
 		79E98D321583CE1D00019FB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E98D301583CE1D00019FB4 /* InfoPlist.strings */; };
-		79E98D341583CE1D00019FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E98D331583CE1D00019FB4 /* main.m */; };
-		79E98D381583CE1D00019FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E98D371583CE1D00019FB4 /* AppDelegate.m */; };
 		79E98D3B1583CE1D00019FB4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E98D391583CE1D00019FB4 /* MainStoryboard.storyboard */; };
 		79E98D3E1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E98D3C1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld */; };
-		79E98D411583CE1D00019FB4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E98D401583CE1D00019FB4 /* MasterViewController.m */; };
-		79E98D441583CE1D00019FB4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E98D431583CE1D00019FB4 /* DetailViewController.m */; };
 		79E98D4C1583D23B00019FB4 /* tea-anytime-iphone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E98D4B1583D23B00019FB4 /* tea-anytime-iphone-icon.png */; };
+		79F223CF15A4A836004ECC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F223C715A4A836004ECC46 /* AppDelegate.m */; };
+		79F223D015A4A836004ECC46 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F223C915A4A836004ECC46 /* DetailViewController.m */; };
+		79F223D115A4A836004ECC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F223CA15A4A836004ECC46 /* main.m */; };
+		79F223D215A4A836004ECC46 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F223CC15A4A836004ECC46 /* MasterViewController.m */; };
+		79F223D315A4A836004ECC46 /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F223CE15A4A836004ECC46 /* Tea.m */; };
+		79F2240115A60D35004ECC46 /* 1896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223D715A60D35004ECC46 /* 1896.jpg */; };
+		79F2240215A60D35004ECC46 /* AncientForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223D815A60D35004ECC46 /* AncientForest.jpg */; };
+		79F2240315A60D35004ECC46 /* ApricotEscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223D915A60D35004ECC46 /* ApricotEscape.jpg */; };
+		79F2240415A60D35004ECC46 /* BlueberryPomegranate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DA15A60D35004ECC46 /* BlueberryPomegranate.jpg */; };
+		79F2240515A60D35004ECC46 /* Bohea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DB15A60D35004ECC46 /* Bohea.jpg */; };
+		79F2240615A60D35004ECC46 /* ChamomileClementine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DC15A60D35004ECC46 /* ChamomileClementine.jpg */; };
+		79F2240715A60D35004ECC46 /* ChampagneBerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DD15A60D35004ECC46 /* ChampagneBerry.jpg */; };
+		79F2240815A60D35004ECC46 /* ChrysanthemumHerbal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DE15A60D35004ECC46 /* ChrysanthemumHerbal.jpg */; };
+		79F2240915A60D35004ECC46 /* ClassicBlack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223DF15A60D35004ECC46 /* ClassicBlack.jpg */; };
+		79F2240A15A60D35004ECC46 /* ColdComfort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E015A60D35004ECC46 /* ColdComfort.jpg */; };
+		79F2240B15A60D35004ECC46 /* DetoxifyMe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E115A60D35004ECC46 /* DetoxifyMe.jpg */; };
+		79F2240C15A60D35004ECC46 /* EarlGrey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E215A60D35004ECC46 /* EarlGrey.jpg */; };
+		79F2240D15A60D35004ECC46 /* EnglishBreakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E315A60D35004ECC46 /* EnglishBreakfast.jpg */; };
+		79F2240E15A60D35004ECC46 /* FrenchLemonGinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E415A60D35004ECC46 /* FrenchLemonGinger.jpg */; };
+		79F2240F15A60D35004ECC46 /* FreshGreens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E515A60D35004ECC46 /* FreshGreens.jpg */; };
+		79F2241015A60D35004ECC46 /* GoldenMonkeySuperior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E615A60D35004ECC46 /* GoldenMonkeySuperior.jpg */; };
+		79F2241115A60D35004ECC46 /* GreenPear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E715A60D35004ECC46 /* GreenPear.jpg */; };
+		79F2241215A60D35004ECC46 /* GreenPomegranate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E815A60D35004ECC46 /* GreenPomegranate.jpg */; };
+		79F2241315A60D35004ECC46 /* Gunpowder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223E915A60D35004ECC46 /* Gunpowder.jpg */; };
+		79F2241415A60D35004ECC46 /* GuoLuFirstGrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223EA15A60D35004ECC46 /* GuoLuFirstGrade.jpg */; };
+		79F2241515A60D35004ECC46 /* HolidayBerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223EB15A60D35004ECC46 /* HolidayBerry.jpg */; };
+		79F2241615A60D35004ECC46 /* Honeybush.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223EC15A60D35004ECC46 /* Honeybush.jpg */; };
+		79F2241715A60D35004ECC46 /* ItalianBloodOrange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223ED15A60D35004ECC46 /* ItalianBloodOrange.jpg */; };
+		79F2241815A60D35004ECC46 /* JasminePearls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223EE15A60D35004ECC46 /* JasminePearls.jpg */; };
+		79F2241915A60D35004ECC46 /* JasmineSilverNeedle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223EF15A60D35004ECC46 /* JasmineSilverNeedle.jpg */; };
+		79F2241A15A60D35004ECC46 /* LemonGingerSnap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F015A60D35004ECC46 /* LemonGingerSnap.jpg */; };
+		79F2241B15A60D35004ECC46 /* LemonLavender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F115A60D35004ECC46 /* LemonLavender.jpg */; };
+		79F2241C15A60D35004ECC46 /* MatchaGradeA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F215A60D35004ECC46 /* MatchaGradeA.jpg */; };
+		79F2241D15A60D35004ECC46 /* MintFusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F315A60D35004ECC46 /* MintFusion.jpg */; };
+		79F2241E15A60D35004ECC46 /* MintPuerh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F415A60D35004ECC46 /* MintPuerh.jpg */; };
+		79F2241F15A60D35004ECC46 /* Oolong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F515A60D35004ECC46 /* Oolong.jpg */; };
+		79F2242015A60D35004ECC46 /* OrganicRelaxation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F615A60D35004ECC46 /* OrganicRelaxation.jpg */; };
+		79F2242115A60D35004ECC46 /* PearSpice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F715A60D35004ECC46 /* PearSpice.jpg */; };
+		79F2242215A60D35004ECC46 /* Puerh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F815A60D35004ECC46 /* Puerh.jpg */; };
+		79F2242315A60D35004ECC46 /* RaspberryNectar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223F915A60D35004ECC46 /* RaspberryNectar.jpg */; };
+		79F2242415A60D35004ECC46 /* Rooibos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FA15A60D35004ECC46 /* Rooibos.jpg */; };
+		79F2242515A60D35004ECC46 /* TalisMasalaChai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FB15A60D35004ECC46 /* TalisMasalaChai.jpg */; };
+		79F2242615A60D35004ECC46 /* TropicalParadise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FC15A60D35004ECC46 /* TropicalParadise.jpg */; };
+		79F2242715A60D35004ECC46 /* WhiteCoconutCreme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FD15A60D35004ECC46 /* WhiteCoconutCreme.jpg */; };
+		79F2242815A60D35004ECC46 /* WhiteGuavaGinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FE15A60D35004ECC46 /* WhiteGuavaGinger.jpg */; };
+		79F2242915A60D35004ECC46 /* WhitePeonyBaiMuDan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F223FF15A60D35004ECC46 /* WhitePeonyBaiMuDan.jpg */; };
+		79F2242A15A60D35004ECC46 /* WhiteRose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F2240015A60D35004ECC46 /* WhiteRose.jpg */; };
+		79F2242C15A60FF5004ECC46 /* ChamomileLavender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79F2242B15A60FF5004ECC46 /* ChamomileLavender.jpg */; };
+		79F2242E15A647F8004ECC46 /* gray-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F2242D15A647F8004ECC46 /* gray-tea-leaf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7902521915A4A6F7007A0889 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		7902521A15A4A6F7007A0889 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7902521B15A4A6F7007A0889 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
 		79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tea-anytime-512x512-icon.png"; sourceTree = "<group>"; };
 		79C1E19D1585460900B3234C /* green-tea-leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tea-leaf.png"; sourceTree = "<group>"; };
 		79C1E19F158632DC00B3234C /* TeaAnytime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TeaAnytime.xml; sourceTree = "<group>"; };
-		79C1E1A5158677A200B3234C /* Tea.h */ = {isa = PBXFileReference; fileEncoding = 4; name = Tea.h; path = TeaAnytime/Tea.h; sourceTree = "<group>"; };
-		79C1E1A6158677A200B3234C /* Tea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tea.m; path = TeaAnytime/Tea.m; sourceTree = "<group>"; };
 		79E98D211583CE1D00019FB4 /* TeaAnytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaAnytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E98D251583CE1D00019FB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79E98D271583CE1D00019FB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,17 +84,63 @@
 		79E98D2B1583CE1D00019FB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		79E98D2F1583CE1D00019FB4 /* TeaAnytime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeaAnytime-Info.plist"; sourceTree = "<group>"; };
 		79E98D311583CE1D00019FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79E98D331583CE1D00019FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79E98D351583CE1D00019FB4 /* TeaAnytime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeaAnytime-Prefix.pch"; sourceTree = "<group>"; };
-		79E98D361583CE1D00019FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79E98D371583CE1D00019FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79E98D3A1583CE1D00019FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		79E98D3D1583CE1D00019FB4 /* TeaAnytime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeaAnytime.xcdatamodel; sourceTree = "<group>"; };
-		79E98D3F1583CE1D00019FB4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		79E98D401583CE1D00019FB4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		79E98D421583CE1D00019FB4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		79E98D431583CE1D00019FB4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		79E98D4B1583D23B00019FB4 /* tea-anytime-iphone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tea-anytime-iphone-icon.png"; sourceTree = "<group>"; };
+		79F223C615A4A836004ECC46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79F223C715A4A836004ECC46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79F223C815A4A836004ECC46 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		79F223C915A4A836004ECC46 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		79F223CA15A4A836004ECC46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F223CB15A4A836004ECC46 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		79F223CC15A4A836004ECC46 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		79F223CD15A4A836004ECC46 /* Tea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tea.h; path = Classes/Tea.h; sourceTree = "<group>"; };
+		79F223CE15A4A836004ECC46 /* Tea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tea.m; path = Classes/Tea.m; sourceTree = "<group>"; };
+		79F223D715A60D35004ECC46 /* 1896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1896.jpg; sourceTree = "<group>"; };
+		79F223D815A60D35004ECC46 /* AncientForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AncientForest.jpg; sourceTree = "<group>"; };
+		79F223D915A60D35004ECC46 /* ApricotEscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ApricotEscape.jpg; sourceTree = "<group>"; };
+		79F223DA15A60D35004ECC46 /* BlueberryPomegranate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueberryPomegranate.jpg; sourceTree = "<group>"; };
+		79F223DB15A60D35004ECC46 /* Bohea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bohea.jpg; sourceTree = "<group>"; };
+		79F223DC15A60D35004ECC46 /* ChamomileClementine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChamomileClementine.jpg; sourceTree = "<group>"; };
+		79F223DD15A60D35004ECC46 /* ChampagneBerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChampagneBerry.jpg; sourceTree = "<group>"; };
+		79F223DE15A60D35004ECC46 /* ChrysanthemumHerbal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChrysanthemumHerbal.jpg; sourceTree = "<group>"; };
+		79F223DF15A60D35004ECC46 /* ClassicBlack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClassicBlack.jpg; sourceTree = "<group>"; };
+		79F223E015A60D35004ECC46 /* ColdComfort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ColdComfort.jpg; sourceTree = "<group>"; };
+		79F223E115A60D35004ECC46 /* DetoxifyMe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DetoxifyMe.jpg; sourceTree = "<group>"; };
+		79F223E215A60D35004ECC46 /* EarlGrey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EarlGrey.jpg; sourceTree = "<group>"; };
+		79F223E315A60D35004ECC46 /* EnglishBreakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EnglishBreakfast.jpg; sourceTree = "<group>"; };
+		79F223E415A60D35004ECC46 /* FrenchLemonGinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FrenchLemonGinger.jpg; sourceTree = "<group>"; };
+		79F223E515A60D35004ECC46 /* FreshGreens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FreshGreens.jpg; sourceTree = "<group>"; };
+		79F223E615A60D35004ECC46 /* GoldenMonkeySuperior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GoldenMonkeySuperior.jpg; sourceTree = "<group>"; };
+		79F223E715A60D35004ECC46 /* GreenPear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenPear.jpg; sourceTree = "<group>"; };
+		79F223E815A60D35004ECC46 /* GreenPomegranate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenPomegranate.jpg; sourceTree = "<group>"; };
+		79F223E915A60D35004ECC46 /* Gunpowder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gunpowder.jpg; sourceTree = "<group>"; };
+		79F223EA15A60D35004ECC46 /* GuoLuFirstGrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuoLuFirstGrade.jpg; sourceTree = "<group>"; };
+		79F223EB15A60D35004ECC46 /* HolidayBerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HolidayBerry.jpg; sourceTree = "<group>"; };
+		79F223EC15A60D35004ECC46 /* Honeybush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Honeybush.jpg; sourceTree = "<group>"; };
+		79F223ED15A60D35004ECC46 /* ItalianBloodOrange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianBloodOrange.jpg; sourceTree = "<group>"; };
+		79F223EE15A60D35004ECC46 /* JasminePearls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JasminePearls.jpg; sourceTree = "<group>"; };
+		79F223EF15A60D35004ECC46 /* JasmineSilverNeedle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JasmineSilverNeedle.jpg; sourceTree = "<group>"; };
+		79F223F015A60D35004ECC46 /* LemonGingerSnap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LemonGingerSnap.jpg; sourceTree = "<group>"; };
+		79F223F115A60D35004ECC46 /* LemonLavender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LemonLavender.jpg; sourceTree = "<group>"; };
+		79F223F215A60D35004ECC46 /* MatchaGradeA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatchaGradeA.jpg; sourceTree = "<group>"; };
+		79F223F315A60D35004ECC46 /* MintFusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MintFusion.jpg; sourceTree = "<group>"; };
+		79F223F415A60D35004ECC46 /* MintPuerh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MintPuerh.jpg; sourceTree = "<group>"; };
+		79F223F515A60D35004ECC46 /* Oolong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oolong.jpg; sourceTree = "<group>"; };
+		79F223F615A60D35004ECC46 /* OrganicRelaxation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OrganicRelaxation.jpg; sourceTree = "<group>"; };
+		79F223F715A60D35004ECC46 /* PearSpice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PearSpice.jpg; sourceTree = "<group>"; };
+		79F223F815A60D35004ECC46 /* Puerh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puerh.jpg; sourceTree = "<group>"; };
+		79F223F915A60D35004ECC46 /* RaspberryNectar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RaspberryNectar.jpg; sourceTree = "<group>"; };
+		79F223FA15A60D35004ECC46 /* Rooibos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rooibos.jpg; sourceTree = "<group>"; };
+		79F223FB15A60D35004ECC46 /* TalisMasalaChai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TalisMasalaChai.jpg; sourceTree = "<group>"; };
+		79F223FC15A60D35004ECC46 /* TropicalParadise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TropicalParadise.jpg; sourceTree = "<group>"; };
+		79F223FD15A60D35004ECC46 /* WhiteCoconutCreme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhiteCoconutCreme.jpg; sourceTree = "<group>"; };
+		79F223FE15A60D35004ECC46 /* WhiteGuavaGinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhiteGuavaGinger.jpg; sourceTree = "<group>"; };
+		79F223FF15A60D35004ECC46 /* WhitePeonyBaiMuDan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhitePeonyBaiMuDan.jpg; sourceTree = "<group>"; };
+		79F2240015A60D35004ECC46 /* WhiteRose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhiteRose.jpg; sourceTree = "<group>"; };
+		79F2242B15A60FF5004ECC46 /* ChamomileLavender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChamomileLavender.jpg; sourceTree = "<group>"; };
+		79F2242D15A647F8004ECC46 /* gray-tea-leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-tea-leaf.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				79E98D3C1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld */,
-				79C1E1A5158677A200B3234C /* Tea.h */,
-				79C1E1A6158677A200B3234C /* Tea.m */,
+				79F223CD15A4A836004ECC46 /* Tea.h */,
+				79F223CE15A4A836004ECC46 /* Tea.m */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -80,8 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				793A17FE15A351DE00BFDFAA /* DataModel */,
+				79F223D515A4A8AA004ECC46 /* UserInterface */,
+				79F223D615A4A8D7004ECC46 /* Utilities */,
 				79E98D4A1583D23B00019FB4 /* Images */,
-				79E98D2D1583CE1D00019FB4 /* Classes */,
 				79E98D2E1583CE1D00019FB4 /* Supporting Files */,
 				79E98D241583CE1D00019FB4 /* Frameworks */,
 				79E98D221583CE1D00019FB4 /* Products */,
@@ -107,27 +200,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79E98D2D1583CE1D00019FB4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				79E98D361583CE1D00019FB4 /* AppDelegate.h */,
-				79E98D371583CE1D00019FB4 /* AppDelegate.m */,
-				79E98D391583CE1D00019FB4 /* MainStoryboard.storyboard */,
-				79E98D3F1583CE1D00019FB4 /* MasterViewController.h */,
-				79E98D401583CE1D00019FB4 /* MasterViewController.m */,
-				79E98D421583CE1D00019FB4 /* DetailViewController.h */,
-				79E98D431583CE1D00019FB4 /* DetailViewController.m */,
-			);
-			name = Classes;
-			path = TeaAnytime;
-			sourceTree = "<group>";
-		};
 		79E98D2E1583CE1D00019FB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				79E98D2F1583CE1D00019FB4 /* TeaAnytime-Info.plist */,
 				79E98D301583CE1D00019FB4 /* InfoPlist.strings */,
-				79E98D331583CE1D00019FB4 /* main.m */,
 				79E98D351583CE1D00019FB4 /* TeaAnytime-Prefix.pch */,
 				79C1E19F158632DC00B3234C /* TeaAnytime.xml */,
 			);
@@ -138,11 +215,82 @@
 		79E98D4A1583D23B00019FB4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				79F2242B15A60FF5004ECC46 /* ChamomileLavender.jpg */,
+				79F223D715A60D35004ECC46 /* 1896.jpg */,
+				79F223D815A60D35004ECC46 /* AncientForest.jpg */,
+				79F223D915A60D35004ECC46 /* ApricotEscape.jpg */,
+				79F223DA15A60D35004ECC46 /* BlueberryPomegranate.jpg */,
+				79F223DB15A60D35004ECC46 /* Bohea.jpg */,
+				79F223DC15A60D35004ECC46 /* ChamomileClementine.jpg */,
+				79F223DD15A60D35004ECC46 /* ChampagneBerry.jpg */,
+				79F223DE15A60D35004ECC46 /* ChrysanthemumHerbal.jpg */,
+				79F223DF15A60D35004ECC46 /* ClassicBlack.jpg */,
+				79F223E015A60D35004ECC46 /* ColdComfort.jpg */,
+				79F223E115A60D35004ECC46 /* DetoxifyMe.jpg */,
+				79F223E215A60D35004ECC46 /* EarlGrey.jpg */,
+				79F223E315A60D35004ECC46 /* EnglishBreakfast.jpg */,
+				79F223E415A60D35004ECC46 /* FrenchLemonGinger.jpg */,
+				79F223E515A60D35004ECC46 /* FreshGreens.jpg */,
+				79F223E615A60D35004ECC46 /* GoldenMonkeySuperior.jpg */,
+				79F223E715A60D35004ECC46 /* GreenPear.jpg */,
+				79F223E815A60D35004ECC46 /* GreenPomegranate.jpg */,
+				79F223E915A60D35004ECC46 /* Gunpowder.jpg */,
+				79F223EA15A60D35004ECC46 /* GuoLuFirstGrade.jpg */,
+				79F223EB15A60D35004ECC46 /* HolidayBerry.jpg */,
+				79F223EC15A60D35004ECC46 /* Honeybush.jpg */,
+				79F223ED15A60D35004ECC46 /* ItalianBloodOrange.jpg */,
+				79F223EE15A60D35004ECC46 /* JasminePearls.jpg */,
+				79F223EF15A60D35004ECC46 /* JasmineSilverNeedle.jpg */,
+				79F223F015A60D35004ECC46 /* LemonGingerSnap.jpg */,
+				79F223F115A60D35004ECC46 /* LemonLavender.jpg */,
+				79F223F215A60D35004ECC46 /* MatchaGradeA.jpg */,
+				79F223F315A60D35004ECC46 /* MintFusion.jpg */,
+				79F223F415A60D35004ECC46 /* MintPuerh.jpg */,
+				79F223F515A60D35004ECC46 /* Oolong.jpg */,
+				79F223F615A60D35004ECC46 /* OrganicRelaxation.jpg */,
+				79F223F715A60D35004ECC46 /* PearSpice.jpg */,
+				79F223F815A60D35004ECC46 /* Puerh.jpg */,
+				79F223F915A60D35004ECC46 /* RaspberryNectar.jpg */,
+				79F223FA15A60D35004ECC46 /* Rooibos.jpg */,
+				79F223FB15A60D35004ECC46 /* TalisMasalaChai.jpg */,
+				79F223FC15A60D35004ECC46 /* TropicalParadise.jpg */,
+				79F223FD15A60D35004ECC46 /* WhiteCoconutCreme.jpg */,
+				79F223FE15A60D35004ECC46 /* WhiteGuavaGinger.jpg */,
+				79F223FF15A60D35004ECC46 /* WhitePeonyBaiMuDan.jpg */,
+				79F2240015A60D35004ECC46 /* WhiteRose.jpg */,
 				79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */,
+				79F2242D15A647F8004ECC46 /* gray-tea-leaf.png */,
 				79C1E19D1585460900B3234C /* green-tea-leaf.png */,
 				79E98D4B1583D23B00019FB4 /* tea-anytime-iphone-icon.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		79F223D515A4A8AA004ECC46 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				79E98D391583CE1D00019FB4 /* MainStoryboard.storyboard */,
+				79F223CA15A4A836004ECC46 /* main.m */,
+				79F223C615A4A836004ECC46 /* AppDelegate.h */,
+				79F223C715A4A836004ECC46 /* AppDelegate.m */,
+				79F223C815A4A836004ECC46 /* DetailViewController.h */,
+				79F223C915A4A836004ECC46 /* DetailViewController.m */,
+				79F223CB15A4A836004ECC46 /* MasterViewController.h */,
+				79F223CC15A4A836004ECC46 /* MasterViewController.m */,
+			);
+			name = UserInterface;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79F223D615A4A8D7004ECC46 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7902521915A4A6F7007A0889 /* common.h */,
+				7902521A15A4A6F7007A0889 /* TBXML.h */,
+				7902521B15A4A6F7007A0889 /* TBXML.m */,
+			);
+			name = Utilities;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +349,50 @@
 				79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */,
 				79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */,
 				79C1E1A0158632DC00B3234C /* TeaAnytime.xml in Resources */,
+				79F2240115A60D35004ECC46 /* 1896.jpg in Resources */,
+				79F2240215A60D35004ECC46 /* AncientForest.jpg in Resources */,
+				79F2240315A60D35004ECC46 /* ApricotEscape.jpg in Resources */,
+				79F2240415A60D35004ECC46 /* BlueberryPomegranate.jpg in Resources */,
+				79F2240515A60D35004ECC46 /* Bohea.jpg in Resources */,
+				79F2240615A60D35004ECC46 /* ChamomileClementine.jpg in Resources */,
+				79F2240715A60D35004ECC46 /* ChampagneBerry.jpg in Resources */,
+				79F2240815A60D35004ECC46 /* ChrysanthemumHerbal.jpg in Resources */,
+				79F2240915A60D35004ECC46 /* ClassicBlack.jpg in Resources */,
+				79F2240A15A60D35004ECC46 /* ColdComfort.jpg in Resources */,
+				79F2240B15A60D35004ECC46 /* DetoxifyMe.jpg in Resources */,
+				79F2240C15A60D35004ECC46 /* EarlGrey.jpg in Resources */,
+				79F2240D15A60D35004ECC46 /* EnglishBreakfast.jpg in Resources */,
+				79F2240E15A60D35004ECC46 /* FrenchLemonGinger.jpg in Resources */,
+				79F2240F15A60D35004ECC46 /* FreshGreens.jpg in Resources */,
+				79F2241015A60D35004ECC46 /* GoldenMonkeySuperior.jpg in Resources */,
+				79F2241115A60D35004ECC46 /* GreenPear.jpg in Resources */,
+				79F2241215A60D35004ECC46 /* GreenPomegranate.jpg in Resources */,
+				79F2241315A60D35004ECC46 /* Gunpowder.jpg in Resources */,
+				79F2241415A60D35004ECC46 /* GuoLuFirstGrade.jpg in Resources */,
+				79F2241515A60D35004ECC46 /* HolidayBerry.jpg in Resources */,
+				79F2241615A60D35004ECC46 /* Honeybush.jpg in Resources */,
+				79F2241715A60D35004ECC46 /* ItalianBloodOrange.jpg in Resources */,
+				79F2241815A60D35004ECC46 /* JasminePearls.jpg in Resources */,
+				79F2241915A60D35004ECC46 /* JasmineSilverNeedle.jpg in Resources */,
+				79F2241A15A60D35004ECC46 /* LemonGingerSnap.jpg in Resources */,
+				79F2241B15A60D35004ECC46 /* LemonLavender.jpg in Resources */,
+				79F2241C15A60D35004ECC46 /* MatchaGradeA.jpg in Resources */,
+				79F2241D15A60D35004ECC46 /* MintFusion.jpg in Resources */,
+				79F2241E15A60D35004ECC46 /* MintPuerh.jpg in Resources */,
+				79F2241F15A60D35004ECC46 /* Oolong.jpg in Resources */,
+				79F2242015A60D35004ECC46 /* OrganicRelaxation.jpg in Resources */,
+				79F2242115A60D35004ECC46 /* PearSpice.jpg in Resources */,
+				79F2242215A60D35004ECC46 /* Puerh.jpg in Resources */,
+				79F2242315A60D35004ECC46 /* RaspberryNectar.jpg in Resources */,
+				79F2242415A60D35004ECC46 /* Rooibos.jpg in Resources */,
+				79F2242515A60D35004ECC46 /* TalisMasalaChai.jpg in Resources */,
+				79F2242615A60D35004ECC46 /* TropicalParadise.jpg in Resources */,
+				79F2242715A60D35004ECC46 /* WhiteCoconutCreme.jpg in Resources */,
+				79F2242815A60D35004ECC46 /* WhiteGuavaGinger.jpg in Resources */,
+				79F2242915A60D35004ECC46 /* WhitePeonyBaiMuDan.jpg in Resources */,
+				79F2242A15A60D35004ECC46 /* WhiteRose.jpg in Resources */,
+				79F2242C15A60FF5004ECC46 /* ChamomileLavender.jpg in Resources */,
+				79F2242E15A647F8004ECC46 /* gray-tea-leaf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +403,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E98D341583CE1D00019FB4 /* main.m in Sources */,
-				79E98D381583CE1D00019FB4 /* AppDelegate.m in Sources */,
 				79E98D3E1583CE1D00019FB4 /* TeaAnytime.xcdatamodeld in Sources */,
-				79E98D411583CE1D00019FB4 /* MasterViewController.m in Sources */,
-				79E98D441583CE1D00019FB4 /* DetailViewController.m in Sources */,
-				79C1E1A7158677A200B3234C /* Tea.m in Sources */,
+				7902521C15A4A6F7007A0889 /* TBXML.m in Sources */,
+				79F223CF15A4A836004ECC46 /* AppDelegate.m in Sources */,
+				79F223D015A4A836004ECC46 /* DetailViewController.m in Sources */,
+				79F223D115A4A836004ECC46 /* main.m in Sources */,
+				79F223D215A4A836004ECC46 /* MasterViewController.m in Sources */,
+				79F223D315A4A836004ECC46 /* Tea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +430,7 @@
 				79E98D3A1583CE1D00019FB4 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = ../TeaAnytime;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

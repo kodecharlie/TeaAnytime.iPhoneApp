@@ -54,7 +54,6 @@
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="green-tea-leaf.png" id="qWo-VM-ZD0">
                                             <rect key="frame" x="1" y="1" width="40" height="40"/>
-                                            <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -86,35 +85,71 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Ryb-t8-cNn">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="96"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="frame" x="0.0" y="40" width="320" height="240"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Ht2-8j-cyf">
-                                <rect key="frame" x="0.0" y="98" width="320" height="318"/>
+                                <rect key="frame" x="0.0" y="280" width="320" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Among the types of Japanese green tea prepared by decoction, "sencha" is distinguished from such specific types as gyokuro and bancha. It is the most popular tea in Japan, and represents about 80 percent of the tea produced in Japan.[citation needed] The flavor depends upon the season and place where it is produced, but it is considered that the most delicious sencha is that from the first flush of the year, the shincha "new tea." The shincha season, depending upon the region of the plantation, is from early April to late May (around the 88th day after the spring equinox). It is considered that the ideal color of the sencha beverage is a greenish golden color. Depending upon the temperature of the water in which it is decocted, the flavor will be different, and this also is the appeal of sencha. With relatively not too hot water, it is relatively mellow; with hot water, it is more astringent. Unground tea was brought from China after matcha (抹茶, powdered green tea). Some varieties expand when steeped to resemble leaf vegetable greens in smell, appearance, and taste.
-The process by which sencha and other Japanese ryokucha (緑茶, green tea) is created differs from Chinese green teas, which are initially pan-fired (and could probably, therefore, more accurately be called "roasted" teas). Japanese green tea is first steamed for between 15–20 seconds to prevent oxidization of the leaves. Then, the leaves are rolled, shaped, and dried. This step creates the customary thin cylindrical shape of the tea. Finally, the leaves are sorted and divided into differing quality groups.</mutableString>
+                                <string key="text">Among the types of Japanese green tea prepared by decoction, "sencha" is distinguished from such specific types as gyokuro and bancha. It is the most popular tea in Japan, and represents about 80 percent of the tea produced in Japan.[citation needed] The flavor depends upon the season and place where it is produced, but it is considered that the most delicious sencha is that from the first flush of the year, the shincha "new tea." The shincha season, depending upon the region of the plantation, is from early April to late May (around the 88th day after the spring equinox). It is considered that the ideal color of the sencha beverage is a greenish golden color. Depending upon the temperature of the water in which it is decocted, the flavor will be different, and this also is the appeal of sencha. With relatively not too hot water, it is relatively mellow; with hot water, it is more astringent. Unground tea was brought from China after matcha (抹茶, powdered green tea). Some varieties expand when steeped to resemble leaf vegetable greens in smell, appearance, and taste.
+The process by which sencha and other Japanese ryokucha (緑茶, green tea) is created differs from Chinese green teas, which are initially pan-fired (and could probably, therefore, more accurately be called "roasted" teas). Japanese green tea is first steamed for between 15–20 seconds to prevent oxidization of the leaves. Then, the leaves are rolled, shaped, and dried. This step creates the customary thin cylindrical shape of the tea. Finally, the leaves are sorted and divided into differing quality groups.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="green-tea-leaf.png" id="bwM-KR-Opl">
+                                <rect key="frame" x="60" y="0.0" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="green-tea-leaf.png" id="4Bj-6U-fr3">
+                                <rect key="frame" x="100" y="0.0" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="gray-tea-leaf.png" id="eGc-cA-ZjI">
+                                <rect key="frame" x="140" y="0.0" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="gray-tea-leaf.png" id="Wzl-Od-6OU">
+                                <rect key="frame" x="180" y="0.0" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="gray-tea-leaf.png" id="q8r-8a-ba7">
+                                <rect key="frame" x="220" y="0.0" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
+                    <connections>
+                        <outlet property="rating1" destination="bwM-KR-Opl" id="aeB-Kn-40o"/>
+                        <outlet property="rating2" destination="4Bj-6U-fr3" id="paJ-Bn-Rmb"/>
+                        <outlet property="rating3" destination="eGc-cA-ZjI" id="DIR-9E-boe"/>
+                        <outlet property="rating4" destination="Wzl-Od-6OU" id="g32-DP-PUK"/>
+                        <outlet property="rating5" destination="q8r-8a-ba7" id="3Gp-6Y-0PS"/>
+                        <outlet property="teaDesc" destination="Ht2-8j-cyf" id="mbh-oc-AXD"/>
+                        <outlet property="teaLeaves" destination="Ryb-t8-cNn" id="kwl-kx-epW"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="902" y="64"/>
         </scene>
     </scenes>
     <resources>
+        <image name="gray-tea-leaf.png" width="40" height="40"/>
         <image name="green-tea-leaf.png" width="40" height="40"/>
     </resources>
     <classes>
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="rating1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="rating2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="rating3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="rating4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="rating5" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="teaDesc" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="teaLeaves" candidateClass="UIImageView"/>
             </relationships>
         </class>
         <class className="MasterViewController" superclassName="UITableViewController">
