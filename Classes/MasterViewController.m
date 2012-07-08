@@ -14,12 +14,10 @@
 
 @interface MasterViewController ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
-- (void)showInfo:(id)sender;
 @end
 
 @implementation MasterViewController
 
-@synthesize infoBarButton = __infoBarButton;
 @synthesize fetchedResultsController = __fetchedResultsController;
 @synthesize managedObjectContext = __managedObjectContext;
 
@@ -31,12 +29,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    /*
-    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-    [infoButton addTarget:self action:[self.infoBarButton action] forControlEvents:UIControlEventTouchUpInside];
-    [self.infoBarButton setCustomView:infoButton];
-     */
 
     // When the app is fired up the first time, the data store is empty.  Check for that condition,
     // and populate the data store accordingly.  Since the fetchedResults controller uses a cache,
@@ -138,10 +130,6 @@
         NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
         [[segue destinationViewController] setDetailItem:object];
     }
-}
-
-- (void)showInfo:(id)sender {
-    // XXX
 }
 
 #pragma mark - Fetched results controller

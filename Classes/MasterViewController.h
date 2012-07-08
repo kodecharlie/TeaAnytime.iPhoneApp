@@ -11,11 +11,6 @@
 #import <CoreData/CoreData.h>
 
 @interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
-{
-    UIBarButtonItem *infoBarButton;
-}
-
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *infoBarButton;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
