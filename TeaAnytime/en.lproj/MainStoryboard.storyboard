@@ -21,6 +21,45 @@
             </objects>
             <point key="canvasLocation" x="-1" y="64"/>
         </scene>
+        <!--Info View Controller-->
+        <scene sceneID="d3M-BY-XIH">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uYZ-Hu-hTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="bsa-dH-kVX" customClass="InfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eyh-ry-7KY">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="4Ek-9O-PPa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="383"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">TeaAnytime offers a variety of organic teas and foods to cafe patrons in the Corpus Christi, Texas, area.  We are located in the Town &amp; Country shopping center near the corner of Robert St. and Alameda.  Our address is:
+
+                TeaAnytime Etc.
+                4200 S. Alameda Suite C
+                Corpus Christi, TX 78412
+                (361) 334-5015
+
+Thanks for your interest!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This app was authored by Charles Read." textAlignment="center" id="N0R-ng-EsW">
+                                <rect key="frame" x="0.0" y="384" width="320" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63921568630000003" green="0.70980392160000005" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xSw-Wo-agI"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1000" y="-313"/>
+        </scene>
         <!--Master View Controller - Master-->
         <scene sceneID="18">
             <objects>
@@ -70,7 +109,16 @@
                             <outlet property="delegate" destination="12" id="15"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Teas" id="36"/>
+                    <navigationItem key="navigationItem" title="Teas" id="36">
+                        <barButtonItem key="rightBarButtonItem" title="About" id="wzU-4m-clJ">
+                            <connections>
+                                <segue destination="bsa-dH-kVX" kind="push" id="AuT-qn-7dL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="infoBarButton" destination="wzU-4m-clJ" id="wBl-Sc-L0f"/>
+                    </connections>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
@@ -132,7 +180,7 @@ The process by which sencha and other Japanese ryokucha (緑茶, green tea) is c
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="902" y="64"/>
+            <point key="canvasLocation" x="1000" y="398"/>
         </scene>
     </scenes>
     <resources>
@@ -152,8 +200,14 @@ The process by which sencha and other Japanese ryokucha (緑茶, green tea) is c
                 <relationship kind="outlet" name="teaLeaves" candidateClass="UIImageView"/>
             </relationships>
         </class>
+        <class className="InfoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
+        </class>
         <class className="MasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="infoBarButton" candidateClass="UIBarButtonItem"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

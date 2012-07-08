@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7902521C15A4A6F7007A0889 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7902521B15A4A6F7007A0889 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		793D371715A9425B0029C53B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793D371615A9425B0029C53B /* InfoViewController.m */; };
 		79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */; };
 		79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19D1585460900B3234C /* green-tea-leaf.png */; };
 		79C1E1A0158632DC00B3234C /* TeaAnytime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19F158632DC00B3234C /* TeaAnytime.xml */; };
@@ -78,6 +79,8 @@
 		7902521915A4A6F7007A0889 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		7902521A15A4A6F7007A0889 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
 		7902521B15A4A6F7007A0889 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		793D371515A9425B0029C53B /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		793D371615A9425B0029C53B /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tea-anytime-512x512-icon.png"; sourceTree = "<group>"; };
 		79C1E19D1585460900B3234C /* green-tea-leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tea-leaf.png"; sourceTree = "<group>"; };
 		79C1E19F158632DC00B3234C /* TeaAnytime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TeaAnytime.xml; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 				79F223C715A4A836004ECC46 /* AppDelegate.m */,
 				79F223C815A4A836004ECC46 /* DetailViewController.h */,
 				79F223C915A4A836004ECC46 /* DetailViewController.m */,
+				793D371515A9425B0029C53B /* InfoViewController.h */,
+				793D371615A9425B0029C53B /* InfoViewController.m */,
 				79F223CB15A4A836004ECC46 /* MasterViewController.h */,
 				79F223CC15A4A836004ECC46 /* MasterViewController.m */,
 			);
@@ -434,6 +439,7 @@
 				79F223D115A4A836004ECC46 /* main.m in Sources */,
 				79F223D215A4A836004ECC46 /* MasterViewController.m in Sources */,
 				79F223D315A4A836004ECC46 /* Tea.m in Sources */,
+				793D371715A9425B0029C53B /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
