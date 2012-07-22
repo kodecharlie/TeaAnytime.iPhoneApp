@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7902521C15A4A6F7007A0889 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7902521B15A4A6F7007A0889 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7935222115BC608B00853759 /* TeaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7935222015BC608B00853759 /* TeaCell.m */; };
 		793D371715A9425B0029C53B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793D371615A9425B0029C53B /* InfoViewController.m */; };
 		79C1E19C1585458D00B3234C /* tea-anytime-512x512-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */; };
 		79C1E19E1585460900B3234C /* green-tea-leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C1E19D1585460900B3234C /* green-tea-leaf.png */; };
@@ -79,6 +80,8 @@
 		7902521915A4A6F7007A0889 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		7902521A15A4A6F7007A0889 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
 		7902521B15A4A6F7007A0889 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7935221F15BC608B00853759 /* TeaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeaCell.h; sourceTree = "<group>"; };
+		7935222015BC608B00853759 /* TeaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeaCell.m; sourceTree = "<group>"; };
 		793D371515A9425B0029C53B /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		793D371615A9425B0029C53B /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		79C1E19B1585458D00B3234C /* tea-anytime-512x512-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tea-anytime-512x512-icon.png"; sourceTree = "<group>"; };
@@ -291,6 +294,8 @@
 				793D371615A9425B0029C53B /* InfoViewController.m */,
 				79F223CB15A4A836004ECC46 /* MasterViewController.h */,
 				79F223CC15A4A836004ECC46 /* MasterViewController.m */,
+				7935221F15BC608B00853759 /* TeaCell.h */,
+				7935222015BC608B00853759 /* TeaCell.m */,
 			);
 			name = UserInterface;
 			path = Classes;
@@ -440,6 +445,7 @@
 				79F223D215A4A836004ECC46 /* MasterViewController.m in Sources */,
 				79F223D315A4A836004ECC46 /* Tea.m in Sources */,
 				793D371715A9425B0029C53B /* InfoViewController.m in Sources */,
+				7935222115BC608B00853759 /* TeaCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +478,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -487,6 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -497,7 +505,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -506,6 +515,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

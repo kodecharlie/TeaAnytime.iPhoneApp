@@ -11,6 +11,7 @@
 #import "DetailViewController.h"
 #import "TBXML.h"
 #import "Tea.h"
+#import "TeaCell.h"
 
 @interface MasterViewController ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -108,6 +109,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeaCell"];
+    if (cell == nil) {
+        cell = [[TeaCell alloc] init];
+    }
     [self configureCell:cell atIndexPath:indexPath];
     return cell;
 }
@@ -240,11 +244,20 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"name"] description];
-    cell.detailTextLabel.text = [[object valueForKey:@"group"] description];
+
+    TeaCell *teaCell = (TeaCell *)cell;
+    [[teaCell name] setText:[[object valueForKey:@"name"] description]];
+    [[teaCell group] setText:[[object valueForKey:@"group"] description]];
+
+    NSNumber *rating = (NSNumber *)[object valueForKey:@"rating"];
+    if ([rating intValue] > 0) {
+        [[teaCell rating] setText:[NSString stringWithFormat:@"%d", [rating intValue]]];
+    } else {
+        [[teaCell rating] setText:@""];
+    }
 
     NSString *imageFileName = [[object valueForKey:@"imageFileName"] description];
-    cell.imageView.image = [UIImage imageNamed:imageFileName];
+    [[teaCell leavesImage] setImage:[UIImage imageNamed:imageFileName]];
 }
 
 @end
